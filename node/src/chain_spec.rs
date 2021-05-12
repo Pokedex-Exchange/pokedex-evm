@@ -154,7 +154,7 @@ pub fn development_chain_spec(mnemonic: Option<String>, num_accounts: Option<u32
 				moonbeam_inflation_config(),
 				accounts.clone(),
 				Default::default(), // para_id
-				1281,               //ChainId
+				56,               //ChainId
 			)
 		},
 		vec![],
